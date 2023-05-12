@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/Admin/Documents/crizdocs/diladahomepage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OH KEYK SHOP</title>
+  
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+ 
+    <link rel="stylesheet" href="file:///C:/Users/Admin/Documents/crizdocs/style.css">
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="path/to/your/css/file.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+:root{
+    --black: #1B1722;
+    --white : #F0F0F0;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*header starts here*/
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html{   
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--white);
+    border-radius: 5rem;
+}
+body{
+    background-size: cover;
+    height: 85vh;
+    background-position: center;
+}
+header{
+    width:100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background-color:palegoldenrod;
+}
+#chk1{
+    display: none; 
+    width: 50px;
+}
+
+i{
+    color: #728C69;
+    cursor: pointer;
+    
+    }
+    button{
+        font-size:1rem;
+        border-radius: 10px;
+        background-color:#EEE8AA;
+        padding:2px 4px;
+        border-color: 1px #000;
+        border-style:groove;
+        outline: none;
+      
+    }
+
+header .logo{
+    flex: 1;
+    text-shadow: 2px 2px 4px #FDA172;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom:45px;
+}
+header .logo h1{
+    color: #fff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+header .logo h1 span{
+
+   font-weight:bold;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+header .search-box{
+    flex: 1;
+    position: relative;
+    margin-bottom:45px;
+}
+.search-box input{
+    width:100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background:#f2f2f2;
+    border-radius: 30px;
+    color:gray;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 40px;
+    text-align: center;
+     
+}
+ 
+.search-box button{
+    cursor: pointer;
+    width:50px;
+    height: 40px;
+    border-radius: 30px;
+    border:none;
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: scale(0.9);
+    background:lightgray;
+    color: #fff;
+}
+
+
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:40px;
+}
+header ul li{
+    list-style: none;
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 9px;
+    margin-bottom:40px;
+}
+
+.dropbtn {
+  background-color:palegoldenrod;
+font-weight: 601;
+ font-style: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  color:#60100B;
+  font-weight: 600; 
+
+}
+
+
+.dropdown {
+  float:left;
+  position:sticky;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  color: whitesmoke;
+  position: absolute;
+  background-color:#fff;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+header ul li i:hover{
+    border-radius:50px;
+    border-bottom:solid orangered;
+    color:orangered;
+}
+
+header ul li a:hover{
+    color:#60100B;
+   
+}
+
+header .menu{
+    font-size: 1.8rem;
+    display: none;
+}
+
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top:100px;
+        right: -100%;
+        background: rgba(0,0,0,0.5);
+        height: calc(100vh - 100px);
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s linear;
+    }
+     
+    header .menu{
+        display: block;
+        width:98px;
+        text-align: center;
+        margin-bottom:45px;
+    }
+
+    #chk1:checked ~ ul{
+        right: 0;
+        margin-bottom:20px;
+        margin-top:0;
+        font-size:15px;
+
+        
+    }
+  
+}
+ /*header end here*/
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:none;
+    background-color: unset;
+    background-size: cover;
+    background-position: center center;
+    background-image:url(assets/background.jpg);
+}
+.home .homeContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+.home .homeContent h2{
+    font-size: 3.5rem;
+    font-weight:17%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    line-height: 5rem;
+    color: var(--black);
+    text-shadow: 5px 5px 5px #fff;
+}
+.home .homeContent p{
+    font-size: 1.5rem;
+    line-height:1;
+    color:#481F01;
+    margin-top:1rem;
+    margin-bottom:10rem;
+}
+.home .homeContent .home-btn{
+    height: 3rem;
+}
+.home .homeContent .home-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+}
+.home .homeContent .home-btn button:hover{
+    font-size: 2rem;
+}
+
+section{
+
+    padding: 2rem 7%;
+    background-color:mintcream;
+    margin-bottom:20px;
+}
+.heading{
+    text-align: center;
+    font-family:cursive;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color:darkblue;
+
+}
+ 
+/*product start here*/
+
+section{
+    background-color: #fff;
+}
+
+h2{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 2.1rem;
+}
+h2 span{
+ color:#0fa3b1;
+}
+.all-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    overflow: hidden;
+    background: #AFCBFF;
+    color: #21201e;
+    text-align: center;
+    width: 301px;
+    height: 460px;
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 2rem;
+}
+.product p{
+    color:F3EAAF;
+     text-shadow: 1px 1px 2px #000000;
+
+}
+.product .product-title, .product .product-price{
+    font-size: 18px;
+}
+
+.product:hover img{
+    scale:  1.3;
+}
+
+.product:hover {
+    box-shadow: 5px 15px 25px #000000;
+    color: rgb(88 199 250 / 100%);
+
+    transition: color 1s;
+}
+
+.product img {
+    width:280px;
+    height: 250px;
+    border-radius:20px;
+    margin: 1rem;
+    transition: all 0.3s;
+
+}
+
+.product a:link, .product a:visited{
+    color: #ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.product a:hover{
+    transform: scale(1.1);
+}
+
+/*product ends here*/
+
+
+ /*footer*/
+header h2 {
+    color: #f0525f;
+}
+
+header span {
+    color: #eaa03f;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #BCBCBC;
+    box-sizing: border-box;
+    width: 100%;
+    height:50%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+     text-shadow: 2px 2px 4px #FDA172;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+     text-shadow: 2px 2px 6px #FDA172;
+     font: normal 36px 'Cookie', cursive;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #158FAD;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #3D3D3F;
+    color: #AEDCDA;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #3D3D3F;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #B8255F;
+    text-decoration: none;
+    
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 2px 2px 4px #FDA172;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+    color: #000000;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #019477;
+    transform: translate(0, -10px);
+}
+
+
+.footer-links a:hover {
+    color: #000000;
+ border-bottom: .1rem solid var(--black);
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
+/*footer end*/
+/* media queries for web responsive */
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.3rem 3rem;
+    }
+    .home .homeContent{
+        margin-left: 0;
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    #menu-bar{
+        display: inline-block;
+        background-color:#000000;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 25rem;
+        background-color:black;
+        height: 80vh;
+    }
+    .header .navbar.active{
+        right: 0;
+    }
+    .header .navbar a{
+        display: block;
+        font-size: 2rem;
+        color: black;
+        margin: 1.5rem;
+    }
+
+    .home .homeContent{
+        margin-left: 0;
+        width: 90%;
+    }
+}
+
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+
+</style>
+    <!-- header section start here  -->
+    <header>
+ <input type ="checkbox" name ="" id ="chk1">
+        <div class="logo"><h1>OH <span>KEYK</span></h1></div>
+            <div class="search-box">
+                <form>
+                    <input type ="text" name ="search" id ="srch" placeholder="Search">
+                    <button type ="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                   <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">PRODUCT</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="file:///C:/Users/Admin/Documents/crizdocs/product.html">Birthday Cake</a>
+                <a href="file:///C:/Users/Admin/Documents/crizdocs/weddingp.html">Wedding Cake</a>
+                <a href="file:///C:/Users/Admin/Documents/crizdocs/SUMMERP.html#">Summer Cake</a>
+                <a href="file:///C:/Users/Admin/Documents/crizdocs/halloween%20p.html">Halloween  Cake</a>
+                <a href="file:///C:/Users/Admin/Documents/crizdocs/partyp.html">Party Cake</a>
+                <a href="file:///C:/Users/Admin/Documents/crizdocs/ANniversaryp.html">Anniversary Cake</a>
+             
+              </div>
+            </div>
+
+
+
+                <li><a href="file:///C:/Users/Admin/Documents/crizdocs/review.html#">Reviews</a></li>
+                <li><a href="file:///C:/Users/Admin/Documents/crizdocs/contact%20form.html#">Contact Us</a></li>
+                <li>
+                    <a href="file:///C:/Users/Admin/Documents/crizdocs/about%20me1.html#"><i class="fas fa-heart"></i></a>
+                    <button><a href="file:///C:/Users/Admin/Documents/crizdocs/logIn2.html#"><i class="fa-solid fa-user"></i></a>login</button>
+                      
+                </li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+    </header>
+    <!-- header section end here  -->
+     <img src="assets/background.png" alt=""> 
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>The best thing on earth are SWEETS! </h2>
+            <p>Where making your happiness in a slice.</p>
+        </div>
+    </section>
+ <!-- home section end here  -->
+    
+    <!-- product section start here  -->
+    <section class="products">
+        <h2>What Cakes <span>We Serve</span></h2>
+        <div class="all-products">
+
+            <div class="product">
+                <img src="assets/b2.jpg">
+                <div class="product-info">
+                    <h4 class="product-title">BIRTHDAY CAKE
+                    </h4>
+                    <p class="product-info">A slice of cake, layered with love and sprinkled with wishes.</p>
+                    <a class="product-btn" href="file:///C:/Users/Admin/Documents/crizdocs/product.html#">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="assets/w2.jpg">
+                <div class="product-info">
+                    <h4 class="product-title">WEDDING CAKE
+                    </h4>
+                    <p class="product-info">A love so many ways starts from the secret ingredient. </p>
+                    <a class="product-btn" href="file:///C:/Users/Admin/Documents/crizdocs/weddingp.html#">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="assets/s1.jpg">
+                <div class="product-info">
+                    <h4 class="product-title">SUMMER CAKE
+                    </h4>
+                    <p class="product-info">Flour your day and cake me away to heaven</p>
+                    <a class="product-btn" href="file:///C:/Users/Admin/Documents/crizdocs/SUMMERP.html#">See More</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/h3.jpg">
+                <div class="product-info">
+                    <h4 class="product-title">HALLOWEEN CAKE
+                    </h4>
+                    <p class="product-info">Believe the black fled across dessert and then you will bite my slice.</p>
+                    <a class="product-btn" href="file:///C:/Users/Admin/Documents/crizdocs/halloween%20p.html#">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="assets/p2.jpg">
+                <div class="product-info">
+                    <h4 class="product-title">PARTY CAKE
+                    </h4>
+                    <p class="product-info">A party without cake is just a metting.Get the cake that everyone loves</p>
+                    <a class="product-btn" href="file:///C:/Users/Admin/Documents/crizdocs/partyp.html#">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="assets/a3.jpg">
+                <div class="product-info">
+                    <h4 class="product-title">ANNIVERSARY CAKE
+                    </h4>
+                    <p class="product-info">Roses are red, violets are blue! Everyone loves cakes, don’t you too?</p>
+                    <a class="product-btn" href="file:///C:/Users/Admin/Documents/crizdocs/ANniversaryp.html#">See More</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+   <!-- product section ends here  -->
+    
+    <!-- footer section start here  -->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>OH<span>KEYK</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Product</a>
+                |
+                <a href="#">Reviews</a>
+                |
+                <a href="#">Contact Us</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2023<strong>Ohkeyk shop</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Jasaan</span>
+                    Misamis Oriental</p>          
+                      </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+63 951 721 158</p>7</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="emailto: diladamaricris@gmail.com">diladamaricris@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                        <span>Our Oh keyk Shop</span>
+        The oh keyk, cakeshop sells a different cake on a website that satisfy customers. For that reason. Our oh keyk, will use a considerable method to ensure the product quality.           </p>
+                    <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+
+     <!-- footer section start here  -->
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+    <!-- custom js file  -->
+    
+</body>
+
+</html>
